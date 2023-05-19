@@ -10,10 +10,9 @@ int main() {
     const char* x = getenv("PARAMETER_X");
     const char* y = getenv("PARAMETER_Y");
 
-    float x = 4;
-    int y = 2;
+    int step = pow(atoi(x),atoi(y));
     
-    cout << pow(x,y) << endl;
+    cout << step << endl;
 
     return 0;
 }
