@@ -7,8 +7,8 @@ using namespace std;
 #include <cstdlib>
 
 int main() {
-    const char* a = getenv("PARAMETER_A");
-    const char* b = getenv("PARAMETER_B");
+    const char* x = getenv("PARAMETER_X");
+    const char* y = getenv("PARAMETER_Y");
 
     float x = 4;
     int y = 2;
